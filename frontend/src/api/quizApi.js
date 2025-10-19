@@ -1,7 +1,8 @@
 
 import axios from 'axios';
 
-const API_URL = 'https://quiznptel-1.onrender.com'; 
+// const API_URL = 'https://quiznptel-1.onrender.com/api/quizzes'; 
+const API_URL = 'https://quiznptel-1.onrender.com/api/quizzes';
 
 export const getQuizWeeks = async () => {
   try {
