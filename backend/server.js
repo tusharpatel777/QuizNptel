@@ -10,7 +10,12 @@ const app = express();
 connectDB();
 
 // Init Middleware
-app.use(cors()); // Allow cross-origin requests from your frontend
+app.use(cors({
+  origin: 'https://quiz-nptel-phi.vercel.app', // removed trailing slash
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true, // optional: enable if sending cookies or auth headers
+}));
+
 app.use(express.json()); // Allows us to get data in req.body
 
 // Define Routes
