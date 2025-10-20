@@ -1298,7 +1298,7 @@ const questionsData = [
     questionNumber: 8,
     text: "When people do not provide honest answers to certain questions because they feel that it is not right to give those answers, it is called:",
     options: ["Social Loafing", "Fatigue", "Social Desirability Effect", "Sampling"],
-    correctAnswer: "Social Desirationality Effect", // Accepted answer from PDF: Social Desirability Effect
+    correctAnswer: "Social Desirability Effect", // Accepted answer from PDF: Social Desirability Effect
     points: 1,
   },
   {
